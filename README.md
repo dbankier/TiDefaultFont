@@ -32,7 +32,6 @@ In `tiapp.xml`:
   <android>
     <manifest>
       <application android:theme="@style/Theme.YY">
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDs9NE5rQYXdAdnYfQQsGpbbyfnfFgFQz4"/>
       </application>
     </manifest>
   </android>
