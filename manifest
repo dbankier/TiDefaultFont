@@ -2,12 +2,12 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
-apiversion: 2
-description: My module
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2014 by Your Company
+version: 1.0.0
+apiversion: 4
+description: TiDefaultFont
+author: David Bankier
+license: MIT
+copyright: Copyright (c) 2018 YY Digital Pty Ltd
 
 
 # these should not be edited
@@ -15,4 +15,5 @@ name: TiDefaultFont
 moduleid: yy.defaultfont
 guid: 2e72150b-0ab0-40b3-9bc1-0faa6c2bfe87
 platform: android
-minsdk: 3.2.2.GA
+architectures: arm64-v8a armeabi-v7a x86
+minsdk: 7.0.0.GA
